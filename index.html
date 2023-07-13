@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <h1>Smartphone Shop</h1>
+    <table>
+        <tr>
+            <th>Image</th>
+            <th>Amazon Link</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://via.placeholder.com/150" alt="">
+            </td>
+            <td>
+                <a 
+                href="https://www.backmarket.it/iphone-8-256-go-grigio-siderale-sbloccato-da-tutti-gli-operatori-miglior-prezzo/36830.html?shopping=gmc&gclid=Cj0KCQjwi7yCBhDJARIsAMWFScMjZzOVcEF5pNGKC0iOZ6szYpA7VKH-Pqv4bKc8p2IdfJZnfR_Hg8IaAtV3EALw_wcB"
+                >
+            iPhone
+                </a>
+            </td>
+            <td>Just an anonymous iPhone</td>
+            <td class="price">$600</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://via.placeholder.com/150" alt="">
+            </td>
+            <td>
+                <a href="https://www.backmarket.it/iphone-8-256-go-grigio-siderale-sbloccato-da-tutti-gli-operatori-miglior-prezzo/36830.html?shopping=gmc&gclid=Cj0KCQjwi7yCBhDJARIsAMWFScMjZzOVcEF5pNGKC0iOZ6szYpA7VKH-Pqv4bKc8p2IdfJZnfR_Hg8IaAtV3EALw_wcB">
+            iPhone
+                </a>
+            </td>
+            <td>just an anonymous iPhone</td>
+            <td class="price">$600</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="http://placehold.it/150x150" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="">
+            </td>
+            <td>
+                <a href=""></a>
+            </td>
+            <td>Just an anonymous iPhone</td>
+            <td class="price">$600</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="">
+            </td>
+            <td>
+                <a href="">iPhone</a>
+            </td>
+            <td>Just an anonymous iPhone</td>
+            <td class="price">$600</td>
+        </tr>
+    </table>
+    <textarea></textarea>
+    <input type="text">
+    <footer>
+        <div>Smartphone Shop</div>
+        <div id="address">4817 Bolman Court, Champaign IL United States</div>
+    </footer>
+<script>
+    const changeH1Text = function(){
+    document.querySelector('h1').innerText = 'Changed!'
+    }
+    const changeBackgroundColor = function () {
+    document.querySelector('body').style.backgroundColor = 'gray' 
+    }
+    const changeAddress = function() {
+    document.querySelector('#address').innerText = 'New Address!'
+    }
+    const addClassToLinks = function() {
+    let aTags = document.querySelectorAll('a')
+    for (let i = 0; i < aTags.length; i++) {
+    aTags[i].classList.add('newLink')
+    }
+    }
+    const toggleImagesClass = function() {
+    let images = document.querySelectAll('img')
+    for (let i = 0; i < images.length; i++) {
+    const singleImg = image[i]
+    singleImg.classList.toggle('hidden')
+    }
+    } 
+    const getRandomColor = function() {
+    const red = Math.round(Math.random() * 255)
+    const green = Math.round(Math.random() * 255)
+    const blue = Math.round(Math.random() * 255)
+    return 'rgb(' + red + ', ' + green + ', ' + blue + ')'
+    } 
+</script>
+</body>
+</html>
